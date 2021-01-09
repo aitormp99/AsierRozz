@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigacion from './components/Navigacion';
@@ -12,16 +12,12 @@ function App() {
   return (
     <Router >
       <div className={"site-content"}>
-       <Navigacion/>
+        <Navigacion />
 
-
-      <Route path="/" exact component={Home}/>
-      <Route path="/music/" component={Music}/>
-      <Route path="/about/" component={About}/>
+        <Route path="/" exact component={Home} />
+        <Route path="/music/" component={Music} />
+        <Route path="/about/" component={About} />
       </div>
-      
-    
-    
     </Router>
   );
 }

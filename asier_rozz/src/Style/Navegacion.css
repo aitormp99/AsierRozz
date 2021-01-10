@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face{
+    font-family: DolceVitaHeavyBold;
+    src: url(DolceVitaHeavyBold.ttf);
+}
+a{
+    font-family: DolceVitaHeavyBold;
+    
+    padding-block: 1%;
+    padding-left: 15%;
+    text-decoration: none;
+    color:#D90416;
+    font-size: 110%;
+}
+a:hover{
+    color: var(--greenapple);
+}
+nav{
+    display: grid;
+    grid-template-rows: minmax(min-content,100px)min-content;
+}
+nav .navi{
+    
+    background-color: #1c1c1c;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    align-content: space-evenly;
+
+}
+nav .navi .nav-lista{
+    display: grid;
+    grid-gap:10px;
+    place-items: center;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(min-content,100px);
+
+}
+.logo_nav{
+   
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    width: 60px;
+    height: 60px;
+}
+

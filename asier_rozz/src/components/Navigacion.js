@@ -3,31 +3,32 @@ import { Link } from 'react-router-dom'
 export default class Navigacion extends Component {
     render() {
         return (
-
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container">
+            
+            <nav className="contain">
+                <div className="navi">
                     
-
-                        <Link className="navbar-brand" to="/">
-                            Asier Rozz
+                        <Link className="navbi-Asier" to="/">
+                            <img className= "logo_nav" src="./AR_logo_pequeño.png"></img>
                         </Link>
-                        <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="navbar-nav ml-auto" >
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/">Home</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/music">Music</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/about">About</Link>
-                                </li>
+
+                        <div className="nav-lista">
+
+                                <a className="na-item">
+                                    <Link className="na-link" to="/">Home</Link>
+                                </a>
+                                <a className="na-item">
+                                    <Link className="na-link" to="/music">Music</Link>
+                                </a>
+                                <a className="na-item">
+                                    <Link className="na-link" to="/about">About</Link>
+                                </a>
                                 
-                            </ul>
+                            
                         </div>
-                  
-                </div>
-            </nav>
+                        </div>
+                  </nav>
+                
+           
         )
     }
 }

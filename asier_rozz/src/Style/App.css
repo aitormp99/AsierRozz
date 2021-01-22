@@ -2,14 +2,9 @@
 
 
 .home_content , .About_content, .Music_content {
-  background-color: #1c1c1c;
-  min-height: 100vh;
  
-  text-align: center;
+  min-height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  
 }
 
 

@@ -1,0 +1,28 @@
+.home_content{
+    background:url(./salto.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+.home_body{
+    background-color: #1c1c1c;
+}
+.anuncio{
+
+    display: grid;
+    grid-template-rows: minmax(min-content,100px)min-content;
+    
+    font-family: DolceVitaHeavyBold;
+    
+    color:#D90416;
+    text-decoration: none;
+    font-size: 130%;
+    padding: 20px;
+}
+.new_song{
+
+    background-color: #1c1c1c;
+    
+
+}

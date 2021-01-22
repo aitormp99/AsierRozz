@@ -13,15 +13,16 @@ export default class Navigacion extends Component {
 
                         <div className="nav-lista">
 
-                                <a className="na-item">
+                                <a className="nav">
                                     <Link className="na-link" to="/">Home</Link>
                                 </a>
-                                <a className="na-item">
+                                <a className="nav">
                                     <Link className="na-link" to="/music">Music</Link>
                                 </a>
-                                <a className="na-item">
+                                <a className="nav">
                                     <Link className="na-link" to="/about">About</Link>
                                 </a>
+                                
                                 
                             
                         </div>

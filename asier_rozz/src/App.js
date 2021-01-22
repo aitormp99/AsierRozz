@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Style/App.css';
 import './Style/Navegacion.css';
+import './Style/Home.css';
 import Navigacion from './components/Navigacion';
 import Home from './components/Home'
 import Music from './components/Music'
